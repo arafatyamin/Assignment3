@@ -1,3 +1,4 @@
+// https://github.com/arafatyamin/Assignment3
 
 // kilometer To Meter count
 
@@ -6,7 +7,7 @@ function kilometerToMeter(km) {
      return meter;
 }
 var totalmeter = kilometerToMeter(2);
-console.log("total meter:",totalmeter)
+console.log("Total Meter:",totalmeter)
 
 //  budget Calculator count
 
@@ -24,7 +25,7 @@ var mobile = 5;
 var laptop = 2;
 var total=[wach,mobile,laptop]
 var result=budgetCalculator(total)
-console.log("total budget:",result)
+console.log("Total Budget:",result)
 
 // total hotel Cost 
 
@@ -49,7 +50,7 @@ else {
     return amount;
 }
 var totalamount = hotelCost(27)
-console.log("total amount:",totalamount)
+console.log("Total Amount:",totalamount)
 
 // mega friend name count
 
@@ -60,4 +61,4 @@ function megaFriend(str) {
   return longestWord ;
 }
 var findWord=megaFriend("RASEL RONY HASAN SHAHIDUL TAJNIN JANNAT");
-console.log("mega name:",findWord)
+console.log("Mega Name:",findWord)
