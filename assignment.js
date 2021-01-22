@@ -35,17 +35,17 @@ if (day <= 10) {
     amount= day * 100;
 }
 else if (day <= 20) {
-    var first10Day = 10 * 100;
+    var firstlevel = 10 * 100;
     var remaining = day - 10;
-    var second10Day = remaining * 80;
-    amount= first10Day + second10Day;
+    var secondlevel = remaining * 80;
+    amount= firstlevel + secondlevel;
 }
 else {
-    var first10Day = 10 * 100;
-    var second10Day = 10 * 80;
+    var firstlevel = 10 * 100;
+    var secondlevel = 10 * 80;
     var remaining = day - 20;
-    var third10Day = remaining * 50;
-    amount= first10Day + second10Day + third10Day;
+    var thirdlevel = remaining * 50;
+    amount= firstlevel + secondlevel + thirdlevel;
     }
     return amount;
 }
